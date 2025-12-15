@@ -7,7 +7,7 @@ from datetime import datetime
 
 # --- 1. APP CONFIGURATION ---
 st.set_page_config(
-    page_title="RadView",
+    page_title="MedRead",
     page_icon="🩺",
     layout="centered"
 )
@@ -310,4 +310,5 @@ st.markdown("""
     <div class='footer'>
         © Rohit Kattimani 2025
     </div>
+
 """, unsafe_allow_html=True)
